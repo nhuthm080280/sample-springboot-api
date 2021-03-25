@@ -10,6 +10,7 @@ jobs:
     steps:
       # git pull
       - checkout
+      - run: java --version
 
       # setup testing env
       - setup_remote_docker:
